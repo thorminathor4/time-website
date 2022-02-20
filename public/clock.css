@@ -17,6 +17,7 @@
     text-align: center;
     transform: rotate(var(--angle));
     padding: 2%;
+    font-size: medium;
 }
 
 .n1{--angle: 30deg;}
