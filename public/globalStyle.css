@@ -24,7 +24,7 @@ body{
     background: radial-gradient(circle, #606060 0%, #C0C0C0 100%);
     border: 2px solid black;
     border-radius: 10px;
-    padding: 16px;
+    padding: 5px 16px;
     font-size: 16px;
     display: inline-block;
 }
