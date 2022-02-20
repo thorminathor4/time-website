@@ -4,7 +4,7 @@
     "heroku": "^7.59.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node time-app.js"
   },
   "engines": {
     "node": "8.9.3"
