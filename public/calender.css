@@ -1,0 +1,17 @@
+#calender{
+    margin: auto;
+    margin-top: 2%;
+    width: 600px;
+    border-collapse: collapse;
+}
+#calender th{
+    background-color: red;
+}
+#calender .weekcol{
+    color: white;
+    width: 78px;
+    padding: 1%;
+}
+#calender th, #calender td{
+    border: 1px solid black;
+}

@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    background-color: #616161;
+    background: radial-gradient(circle, #616161 0%, #616161 20%, #282828 100%);
+    font-family: Helvetica;
+    height: 100vh;
+    overflow: hidden;
+}

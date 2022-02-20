@@ -1,0 +1,109 @@
+#clock{
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 40px solid silver;
+    position: relative;
+}
+.number, .tick{
+    --angle: 0;
+    font-size: x-large;
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    text-align: center;
+    transform: rotate(var(--angle));
+    padding: 2%;
+}
+
+.n1{--angle: 30deg;}
+.n2{--angle: 60deg;}
+.n3{--angle: 90deg;}
+.n4{--angle: 120deg;}
+.n5{--angle: 150deg;}
+.n6{--angle: 180deg;}
+.n7{--angle: 210deg;}
+.n8{--angle: 240deg;}
+.n9{--angle: 270deg;}
+.n10{--angle: 300deg;}
+.n11{--angle: 330deg;}
+
+.t1{--angle: 6deg;}
+.t2{--angle: 12deg;}
+.t3{--angle: 18deg;}
+.t4{--angle: 24deg;}
+.t6{--angle: 36deg;}
+.t7{--angle: 42deg;}
+.t8{--angle: 48deg;}
+.t9{--angle: 54deg;}
+.t11{--angle: 66deg;}
+.t12{--angle: 72deg;}
+.t13{--angle: 78deg;}
+.t14{--angle: 84deg;}
+.t16{--angle: 96deg;}
+.t17{--angle: 102deg;}
+.t18{--angle: 108deg;}
+.t19{--angle: 114deg;}
+.t21{--angle: 126deg;}
+.t22{--angle: 132deg;}
+.t23{--angle: 138deg;}
+.t24{--angle: 144deg;}
+.t26{--angle: 156deg;}
+.t27{--angle: 162deg;}
+.t28{--angle: 168deg;}
+.t29{--angle: 174deg;}
+.t31{--angle: 186deg;}
+.t32{--angle: 192deg;}
+.t33{--angle: 198deg;}
+.t34{--angle: 204deg;}
+.t36{--angle: 216deg;}
+.t37{--angle: 222deg;}
+.t38{--angle: 228deg;}
+.t39{--angle: 234deg;}
+.t41{--angle: 246deg;}
+.t42{--angle: 252deg;}
+.t43{--angle: 258deg;}
+.t44{--angle: 264deg;}
+.t46{--angle: 276deg;}
+.t47{--angle: 282deg;}
+.t48{--angle: 288deg;}
+.t49{--angle: 294deg;}
+.t51{--angle: 306deg;}
+.t52{--angle: 312deg;}
+.t53{--angle: 318deg;}
+.t54{--angle: 324deg;}
+.t56{--angle: 336deg;}
+.t57{--angle: 342deg;}
+.t58{--angle: 348deg;}
+.t59{--angle: 354deg;}
+
+.hand{
+    --angle: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    transform-origin: bottom;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--angle)*1deg));
+}
+.second-hand{
+    width: 3px;
+    height: 45%;
+    background-color: red;
+}
+.minute-hand{
+    width: 7px;
+    height: 40%;
+    background-color: black;
+}
+.hour-hand{
+    width: 10px;
+    height: 35%;
+    background-color: black;
+}
