@@ -15,3 +15,7 @@
 #calender th, #calender td{
     border: 1px solid black;
 }
+#calender td{
+    padding: 2%;
+    background-color: white;
+}
