@@ -6,3 +6,25 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+#title{
+    margin: 0;
+}
+#top{
+    margin-bottom: 2%;
+}
+.menu{
+    width: 100%;
+    text-align: left;
+    padding: 0 2%;
+}
+.menu-item {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background: radial-gradient(circle, #606060 0%, #C0C0C0 100%);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    display: inline-block;
+}

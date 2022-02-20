@@ -8,15 +8,25 @@
         <title>Thors Time Website</title>
     </head>
     <body>
-        <h1>📆⌚️ Thors Time Website ⌚️📆</h1>
+        <div id="top">
+            <h1 id="title">📆⌚️ Thors Time Website ⌚️📆</h1>
+            <span>I will continue to add content to this site</span>
+        </div>
+        <div class="menu">
+            <a href="/">
+                <div class="menu-item">
+                    Date & Time
+                </div>
+            </a>
+        </div>
         <div id="date">
-            <h2 id="date-display">
+            <h1 id="date-display">
                 <div>
                     <span id="weekday"></span> - Week <span id="week"></span>
                 </div>
                 <span id="weekday1"></span> <span id="date1"></span>/<span id="month"></span>-<span id="year1"></span> =
                 <span id="weekday2"></span> <span id="date2"></span> <span id="month-name"></span> <span id="year2"></span>
-            </h2>
+            </h1>
             <table id="calender">
                 <thead>
                     <th></th>
@@ -31,13 +41,13 @@
             </table>
         </div>
         <div id="time">
-            <h2 id="time-display">
+            <h1 id="time-display">
                 <div>
                     <span id="timezone"></span>
                 </div>
                 <span id="24h-hours"></span>:<span id="24h-minutes"></span>:<span id="24h-seconds"></span> =
                 <span id="12h-hours"></span>:<span id="12h-minutes"></span>:<span id="12h-seconds"></span> <span id="am-pm"></span>
-            </h2>
+            </h1>
             <div id="clock">
                 <div class="hand hour-hand"></div>
                 <div class="hand minute-hand"></div>
