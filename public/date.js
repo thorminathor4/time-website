@@ -1,5 +1,4 @@
-const monthNames = ['January','Febuary','March','April','May','June',
-'July','August','September','October','November','December'];
+const monthNames = ['January','Febuary','March','April','May','June','July','August','September','October','November','December'];
 const weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
 const ordinals = ['th','st','nd','rd','th','th','th','th','th','th'];
