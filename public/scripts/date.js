@@ -31,7 +31,7 @@ function updateWeek(date){
     const firstWeekDay = janFirst.getDay();
     const daysIntoYear = Math.floor((date - janFirst) / millisPerDay);
     const weeksIntoYear = Math.floor(daysIntoYear/7);
-    console.log(janFirst, firstWeekDay, daysIntoYear, weeksIntoYear);
+    //console.log(janFirst, firstWeekDay, daysIntoYear, weeksIntoYear);
     week.innerText = weeksIntoYear;
 }
 
